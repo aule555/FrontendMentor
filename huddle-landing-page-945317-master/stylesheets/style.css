@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 14px;
+  word-break: break-word;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 400;
+  text-align: left;
+}
+
+a {
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+a span {
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+header {
+  background: url(../images/bg-hero-desktop.svg);
+  background-color: #ebfbff;
+  padding: 0 50px;
+}
+header .top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 100px;
+  padding: 100px 50px 0;
+}
+header .top .logo {
+  min-width: 300px;
+}
+header .top .button {
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 4px #808d99;
+  color: #000000;
+  padding: 10px 0;
+}
+header .main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+header .main-container .text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+header .main-container .text p {
+  margin: 20px 0;
+}
+header .main-container .text .button {
+  background-color: #ff52bf;
+  color: #ffffff;
+  padding: 25px 60px;
+  margin: 25px 0 0px;
+  width: 400px;
+}
+header .main-container img {
+  min-width: 768px;
+  margin: 0 0 100px;
+}
+@media only screen and (max-width: 768px) {
+  header .main-container {
+    flex-direction: column;
+  }
+  header .main-container .text {
+    justify-content: center;
+  }
+}
+
+main {
+  padding: 0 100px;
+}
+main .container {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 28px;
+  box-shadow: 0px 1px 4px #808d99;
+  padding: 50px 25px 50px 100px;
+}
+main .container .text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+main .container .text p {
+  color: darkgray;
+}
+main .top-container {
+  margin: 200px 0 0 0;
+}
+main .top-container img {
+  max-width: 511.7px;
+  max-height: 418.8px;
+}
+main .mid-container {
+  margin: 100px 0;
+  flex-direction: row-reverse;
+}
+main .mid-container img {
+  max-width: 562.6px;
+  max-height: 400.5px;
+}
+main .bot-container {
+  margin: 0 0 200px 0;
+}
+main .bot-container img {
+  max-width: 539px;
+  max-height: 406.5px;
+}
+main .absolute-container {
+  background-color: #ffffff;
+  flex-direction: column;
+  width: 768px;
+  height: auto;
+  margin: 0px auto;
+  padding: 50px 0;
+  transform: translateY(85px);
+}
+main .absolute-container .button {
+  background-color: #ff52bf;
+  color: #ffffff;
+  padding: 25px 60px;
+  margin: 25px 0 0px;
+  width: 400px;
+}
+
+footer {
+  background-color: #00252e;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 0 100px;
+}
+footer .logo {
+  width: 100%;
+  float: left;
+  margin: 200px 0 0;
+}
+footer .logo img {
+  min-width: 300px;
+}
+footer .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+footer .contact .infos {
+  width: 40%;
+}
+footer .contact .infos p {
+  font-size: 1.5rem;
+  margin: 0 0 25px;
+}
+footer .contact .infos .location {
+  display: flex;
+}
+footer .contact .infos .location img {
+  width: 13px;
+  height: 18px;
+  margin: 7px 7px 1px 0;
+}
+footer .contact .infos .phone {
+  display: flex;
+}
+footer .contact .infos .phone img {
+  width: 18px;
+  height: 18px;
+  margin: 7px 2px 1px 0;
+}
+footer .contact .infos .email {
+  display: flex;
+}
+footer .contact .infos .email img {
+  width: 20px;
+  height: 18px;
+  margin: 7px 2px 1px 0;
+}
+footer .contact .redirect p {
+  margin: 0 0 25px;
+}
+footer .contact .social a img {
+  border: solid #ffffff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 5px;
+}
+footer .copyright {
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 0 0 100px;
+  font-family: "Open Sans", "sans-serif";
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
